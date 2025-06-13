@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretório de Receitas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css"> 
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Diretório de Receitas</h1>
+            <ul>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#pratos-principais">Pratos Principais</a></li>
+                <li><a href="#sobremesas">Sobremesas</a></li>
+                 <li><a href="admin.html" class="btn-admin">Painel Admin</a></li>
+                <li><input type="text" id="search" placeholder="Buscar receitas..."></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="destaques">
+            <div class="destaque-receita">
+                <h1>Receita Destaque: Risoto de Camarão</h1>
+                <p>Um delicioso risoto cremoso com camarões frescos, temperado com ervas finas e um toque especial de vinho branco.</p>
+                <!-- Imagem de fallback (opcional) -->
+                <img src="assets/img/risoto-de-camarao-14.webp" alt="Risoto" style="max-width: 100%; display: none;">
+            </div>
+        </section>
+        <!-- Seção para os cards dinâmicos -->
+        <section id="cards-container">
+            <!-- Os cards serão inseridos pelo app.js -->
+        </section>
+    </main>
+     <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Diretório de Receitas. Todos os direitos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="assets/scripts/app.js"></script>
+    
+</body>
+</html>
