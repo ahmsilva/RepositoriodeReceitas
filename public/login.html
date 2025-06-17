@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/login.css"> </head>
+<body>
+    <header>
+        <h1>Login / Cadastro</h1>
+    </header>
+
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-username">Usuário:</label>
+                <input type="text" id="login-username" required>
+
+                <label for="login-password">Senha:</label>
+                <input type="password" id="login-password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="#" id="show-register">Cadastre-se aqui</a>.</p>
+        </section>
+
+        <section id="register-section" style="display: none;">
+            <h2>Cadastro</h2>
+            <form id="register-form">
+                <label for="register-username">Usuário:</label>
+                <input type="text" id="register-username" required>
+
+                <label for="register-password">Senha:</label>
+                <input type="password" id="register-password" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="#" id="show-login">Faça login aqui</a>.</p>
+        </section>
+    </main>
+
+    <script src="assets/scripts/login.js"></script> </body>
+</html>

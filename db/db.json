@@ -1,0 +1,118 @@
+{
+  "receitas": [
+    {
+      "id": 1,
+      "titulo": "Risoto de Camarão",
+      "descricao": "Um delicioso risoto com camarões e um toque de vinho branco.",
+      "conteudo": "Receita detalhada: Arroz arbóreo, camarões limpos, caldo de peixe, vinho branco, queijo parmesão e ervas frescas. Ideal para ocasiões especiais!",
+      "categoria": "Pratos Principais",
+      "autor": "Chef Roberto",
+      "data": "2025-04-10",
+      "imagem": "assets/img/risoto-de-camarao-14.webp",
+      "dificuldade": "Média",
+      "tempo_preparo": 45,
+      "origem": {
+        "lat": -23.5505,
+        "lng": -46.6333,
+        "local": "São Paulo, Brasil"
+      },
+      "porcoes": 4,
+      "ingredientes": [
+        "300g de arroz arbóreo",
+        "200g de camarões",
+        "1 litro de caldo de peixe"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Bruschetta de Tomate",
+      "descricao": "Entrada simples com tomate fresco e manjericão.",
+      "conteudo": "Receita detalhada: Pão italiano torrado, tomate picado, alho, azeite de oliva e folhas de manjericão, resultando em uma entrada leve e saborosa.",
+      "categoria": "Entradas",
+      "autor": "Chef Marisa",
+      "data": "2025-04-08",
+      "imagem": "assets/img/348040-original.jpg",
+      "dificuldade": "Fácil",
+      "tempoPreparo": 15,
+      "origem": {
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "local": "Roma, Itália"
+      },
+      "porcoes": 2,
+      "ingredientes": [
+        "4 fatias de pão italiano",
+        "2 tomates maduros"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Goon Meal",
+      "descricao": "O tradicional break fast dos gooners",
+      "conteudo": "Receita detalhada: Camadas de rizz, creme sigma e finalizado com cacau ohio. Um salgado irresistível para os amantes do brainrot",
+      "categoria": "Pratos Principais",
+      "autor": "Chef Skibidi",
+      "data": "2025-04-06",
+      "imagem": "assets/img/goon.webp ",
+      "dificuldade": "Fácil",
+      "tempoPreparo": 15,
+      "porcoes": 2,
+      "ingredientes": [
+        "4 fatias de rizz",
+        "2 horas de mewing"
+      ]
+    },
+    {
+      "titulo": "Rizz Meal",
+      "descricao": "A tradição rizz meal, para gooners e sigmas,teste",
+      "conteudo": "undefined",
+      "categoria": "Entradas",
+      "imagem": "assets/img/steak.jpg",
+      "autor": "Administrador",
+      "data": "2025-05-25",
+      "id": 5
+    },
+    {
+      "titulo": "Teste Grafico",
+      "descricao": "Teste Grafico",
+      "conteudo": "Teste Grafico",
+      "categoria": "Doces",
+      "imagem": "assets/img/doces.jpg",
+      "autor": "Administrador",
+      "data": "2025-05-28",
+      "id": 7
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Pratos Principais"
+    },
+    {
+      "id": 2,
+      "nome": "Entradas"
+    },
+    {
+      "id": 3,
+      "nome": "Sobremesas"
+    },
+    {
+      "id": 4,
+      "nome": "Doces"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "u1",
+      "username": "usuarioComum",
+      "password": "senha",
+      "isAdmin": false
+    },
+    {
+      "id": "u2",
+      "username": "admin",
+      "password": "admin",
+      "isAdmin": true
+    }
+  ]
+}
